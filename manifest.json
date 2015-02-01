@@ -1,0 +1,24 @@
+{
+ "background": {
+    "scripts": ["background.js", "jquery.min.js","jquery.longurl.js"],
+    "css": ["mystyles.css"]
+ },
+ "browser_action": {
+ "default_icon": "icon-128.png",
+ "default_title": "t.co Unshortener"
+ },
+ "name": "t.co Unshortener",
+ "description": "Extract all t.co links on a webpage and unshorten them.",
+ "homepage_url": "http://www.vxsecurity.sg",
+ "icons": {
+     "16": "icon-16.png",
+     "48": "icon-48.png",
+     "128": "icon-128.png" },
+ "permissions": [
+     "tabs",
+     "http://*/*",
+     "https://*/*"
+ ],
+ "version": "0.1",
+ "manifest_version": 2
+}
